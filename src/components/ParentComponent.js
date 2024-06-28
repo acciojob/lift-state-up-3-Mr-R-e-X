@@ -5,6 +5,7 @@ const ParentComponent = () => {
   return (
     <>
       <div className="parent">
+      <h1>Parent Component</h1>
         {["Child Component 1", "Child Component 2"].map((option, idx) => (
           <Child
             key={idx}
